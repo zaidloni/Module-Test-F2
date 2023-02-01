@@ -146,7 +146,7 @@ function handelImg3() {
 
 function img3Func() {
   userDetailsEl.innerHTML = "";
-  diceEl.classList.toggle("hide");
+  diceEl.classList.remove("hide");
 }
 // Generate random number between 1-6 for the dice
 function getRandom() {
