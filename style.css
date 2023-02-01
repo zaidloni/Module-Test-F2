@@ -1,0 +1,30 @@
+.main {
+  margin: 10px auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+}
+img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.form-container {
+  text-align: center;
+  margin: 10px auto;
+  width: 1200px;
+}
+input {
+  width: 600px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.hide {
+  display: none;
+}
