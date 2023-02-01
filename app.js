@@ -91,6 +91,7 @@ function handleClick() {
     The sum is ${sum1}`;
     diceEl.classList.toggle("hide");
     alert("sum is below 10 please try again by clicking image 3");
+    handelImg3();
   } else if (sum1 <= 10 && chances === 0 && count1 === 0) {
     alert("Bad Luck cannot try more than 2 time");
     document.querySelector(".p").innerHTML = `
@@ -141,7 +142,7 @@ function handleClick() {
 
 // Image 3 handler
 function handelImg3() {
-  img3El.addEventListener("click", img3Func);
+  img3El.addEventListener("click", img3Func, { once: true });
 }
 
 function img3Func() {
