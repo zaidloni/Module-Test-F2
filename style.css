@@ -10,9 +10,14 @@ img {
   height: 250px;
   border: 2px solid black;
 }
-img:hover {
+/* img:hover {
   cursor: pointer;
   transform: scale(1.05);
+} */
+#btn {
+  width: 200px;
+  height: 40px;
+  border: 2px solid black;
 }
 .form-container {
   text-align: center;
